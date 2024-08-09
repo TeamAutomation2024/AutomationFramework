@@ -8,7 +8,9 @@ public class Formulario {
         options.addArguments("star-maximized");
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://demoqa.com/");
+        System.out.println("finalizado");
         driver.quit();
+
 
     }
 }
